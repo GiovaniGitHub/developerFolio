@@ -46,10 +46,10 @@ const skillsSection = {
   title: "Skills",
   subTitle: "Languages and Tools",
   skills: [
+    emoji("⚡ Development or use of APIs and architecture of web applications"),
     emoji(
-      "⚡ Development or use of APIs and architecture of web applications"
+      "⚡ Creation of jobs with the objective of extracting, transforming and loading data."
     ),
-    emoji("⚡ Creation of jobs with the objective of extracting, transforming and loading data."),
     emoji("⚡ Development and deployment of a machine learning pipeline.")
   ],
 
@@ -59,7 +59,8 @@ https://fontawesome.com/icons?d=gallery */
     languages: [
       {
         skillName: "java",
-        imageUrl: "https://img.icons8.com/color/512/000000/java-coffee-cup-logo.png",
+        imageUrl:
+          "https://img.icons8.com/color/512/000000/java-coffee-cup-logo.png",
         negative: false,
         size: "60px"
       },
@@ -89,7 +90,8 @@ https://fontawesome.com/icons?d=gallery */
       },
       {
         skillName: "Rust",
-        imageUrl: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/512/external-rust-is-a-multi-paradigm-system-programming-language-logo-color-tal-revivo.png",
+        imageUrl:
+          "https://img.icons8.com/external-tal-revivo-color-tal-revivo/512/external-rust-is-a-multi-paradigm-system-programming-language-logo-color-tal-revivo.png",
         negative: true,
         size: "60px"
       }
@@ -103,7 +105,8 @@ https://fontawesome.com/icons?d=gallery */
       },
       {
         skillName: "Scikit",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+        imageUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
         negative: false,
         size: "100px"
       },
@@ -121,7 +124,8 @@ https://fontawesome.com/icons?d=gallery */
       },
       {
         skillName: "Keras",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg",
+        imageUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg",
         negative: false,
         size: "60px"
       },
@@ -151,11 +155,12 @@ https://fontawesome.com/icons?d=gallery */
       },
       {
         skillName: "Spark",
-        imageUrl: "https://uploads-ssl.webflow.com/5e724862760345325327026c/5fa7238e9ad1b43af56de907_apache-spark-white-logo.png",
+        imageUrl:
+          "https://uploads-ssl.webflow.com/5e724862760345325327026c/5fa7238e9ad1b43af56de907_apache-spark-white-logo.png",
         negative: false,
         size: "100px"
       }
-    ],
+    ]
   },
   display: true // Set false to hide this section, defaults to true
 };
@@ -170,7 +175,7 @@ const educationInfo = {
       logo: require("./assets/images/brasao_flat.png"),
       subHeader: "PhD of Electrical and Computer Engineering",
       duration: "September 2011 - May 2016",
-      desc: "Researched of Telediagnosis system, Lung Cancer, Medical Image Processing, Feature Selection and published 3 .",
+      desc: "Researched of Telediagnosis system, Lung Cancer, Medical Image Processing, Feature Selection and published 3 ."
     },
     {
       schoolName: "Federal University of Rio Grande do Norte",
@@ -180,11 +185,12 @@ const educationInfo = {
       desc: "Participated in the research of Interval Analysis and Computational mathematics."
     },
     {
-      schoolName: "Federal Institute of Education Science and Technology of Rio Grande do Norte",
+      schoolName:
+        "Federal Institute of Education Science and Technology of Rio Grande do Norte",
       logo: require("./assets/images/ifrn.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2004 - July 2009",
-      desc: " Took courses about Software Engineering, Software Analysis, Operating Systems.",
+      desc: " Took courses about Software Engineering, Software Analysis, Operating Systems."
     },
     {
       schoolName: "Federal University of Rio Grande do Norte",
@@ -234,15 +240,15 @@ const workExperiences = {
       company: "Stone",
       companylogo: require("./assets/images/Stone_pagamentos.png"),
       date: "Nov. 2020 -- Dec. 2021",
-      desc: "Implementation and maintenance of systems associated with the company's billing and billing process.",
+      desc: "Implementation and maintenance of systems associated with the company's billing and billing process."
     },
     {
       role: "Research and Technology Consultant",
       company: "LAIS",
       companylogo: require("./assets/images/lais.png"),
       date: "Jan. 2015 -- Dec 2019",
-      desc: "  Support for research, review of articles and works for publication, implementation and proposals for solutions to problems using Machine Learning, Digital Image and Signal Processing and Statistical Analysis.",
-    },
+      desc: "  Support for research, review of articles and works for publication, implementation and proposals for solutions to problems using Machine Learning, Digital Image and Signal Processing and Statistical Analysis."
+    }
   ]
 };
 
@@ -263,7 +269,8 @@ const bigProjects = {
     {
       image: require("./assets/images/gtp.jpeg"),
       projectName: "Hunter",
-      projectDesc: "The project is a process automation platform that identifies, controls and manages sensors, actuators and components.",
+      projectDesc:
+        "The project is a process automation platform that identifies, controls and manages sensors, actuators and components.",
       footerLink: [
         {
           name: "Visit Website",
@@ -274,7 +281,8 @@ const bigProjects = {
     {
       image: require("./assets/images/alive.jpeg"),
       projectName: "Alive App",
-      projectDesc: "Web app for scheduling appointments, medication control, guides and partnerships.",
+      projectDesc:
+        "Web app for scheduling appointments, medication control, guides and partnerships.",
       footerLink: [
         {
           name: "Linkedin",
@@ -282,7 +290,6 @@ const bigProjects = {
         }
       ]
     }
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -292,8 +299,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Certifications 🏆 "),
-  subtitle:
-    "Certifications, courses and some badges that I have done !",
+  subtitle: "Certifications, courses and some badges that I have done !",
 
   achievementsCards: [
     {
@@ -358,8 +364,7 @@ const achievementSection = {
     },
     {
       title: "Udemy",
-      subtitle:
-        "",
+      subtitle: "",
       image: require("./assets/images/udemy_transparent.png"),
       footerLink: [
         {
@@ -375,7 +380,7 @@ const achievementSection = {
           url: "https://www.udemy.com/certificate/UC-2196270e-368a-4c77-babf-9c6777bec54a"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

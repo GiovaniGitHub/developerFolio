@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
@@ -25,20 +25,20 @@ const Main = () => {
   return (
     <div className="dark-mode">
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
-          <>
-            <Header />
-            <Greeting />
-            <Skills />
-            <StackProgress />
-            <Education />
-            <Achievement />
-            <WorkExperience />
-            <Projects />
-            <StartupProject />
-            <Profile />
-            <Footer />
-            {/* <ScrollToTopButton /> */}
-          </>
+        <>
+          <Header />
+          <Greeting />
+          <Skills />
+          <StackProgress />
+          <Education />
+          <Achievement />
+          <WorkExperience />
+          <Projects />
+          <StartupProject />
+          <Profile />
+          <Footer />
+          {/* <ScrollToTopButton /> */}
+        </>
       </StyleProvider>
     </div>
   );

@@ -38,7 +38,7 @@ export default function StartupProject() {
                 <div
                   key={i}
                   className="dark-mode project-card project-card-dark"
-                  >
+                >
                   {project.image ? (
                     <div className="project-image">
                       <img
@@ -49,13 +49,10 @@ export default function StartupProject() {
                     </div>
                   ) : null}
                   <div className="project-detail">
-                    <h5
-                      className="dark-mode card-title">
+                    <h5 className="dark-mode card-title">
                       {project.projectName}
                     </h5>
-                    <p
-                      className="dark-mode card-subtitle" 
-                    >
+                    <p className="dark-mode card-subtitle">
                       {project.projectDesc}
                     </p>
                     {project.footerLink ? (
@@ -64,7 +61,7 @@ export default function StartupProject() {
                           return (
                             <span
                               key={i}
-                              className="dark-mode project-tag" 
+                              className="dark-mode project-tag"
                               onClick={() => openUrlInNewTab(link.url)}
                             >
                               {link.name}

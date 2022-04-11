@@ -20,10 +20,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
   const GetDescBullets = ({descBullets}) => {
     return descBullets
       ? descBullets.map((item, i) => (
-          <li
-            key={i}
-            className="subTitle dark-mode-text"
-          >
+          <li key={i} className="subTitle dark-mode-text">
             {item}
           </li>
         ))
@@ -48,22 +45,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
         />
       </div>
       <div className="experience-text-details">
-        <h5
-          className="experience-text-role dark-mode-text"
-
-        >
-          {cardInfo.role}
-        </h5>
-        <h5
-          className="experience-text-date dark-mode-text"
-
-        >
-          {cardInfo.date}
-        </h5>
-        <p
-          className="subTitle experience-text-desc dark-mode-text"
-
-        >
+        <h5 className="experience-text-role dark-mode-text">{cardInfo.role}</h5>
+        <h5 className="experience-text-date dark-mode-text">{cardInfo.date}</h5>
+        <p className="subTitle experience-text-desc dark-mode-text">
           {cardInfo.desc}
         </p>
         <ul>

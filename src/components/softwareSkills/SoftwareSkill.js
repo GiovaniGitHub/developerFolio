@@ -1,6 +1,6 @@
 import React from "react";
 import "./SoftwareSkill.scss";
-import { skillsSection } from "../../portfolio";
+import {skillsSection} from "../../portfolio";
 
 export default function SoftwareSkill() {
   return (
@@ -10,15 +10,31 @@ export default function SoftwareSkill() {
         {skillsSection.softwareSkills.languages.map((skills, i) => {
           if (skills.negative) {
             return (
-              <li key={i} className="software-skill-inline img-negative" name={skills.skillName}>
-                <img alt={skills.skillName} width={skills.size} src={skills.imageUrl} />
+              <li
+                key={i}
+                className="software-skill-inline img-negative"
+                name={skills.skillName}
+              >
+                <img
+                  alt={skills.skillName}
+                  width={skills.size}
+                  src={skills.imageUrl}
+                />
                 <p>{skills.skillName}</p>
               </li>
             );
           } else {
             return (
-              <li key={i} className="software-skill-inline" name={skills.skillName}>
-                <img alt={skills.skillName} width={skills.size} src={skills.imageUrl} />
+              <li
+                key={i}
+                className="software-skill-inline"
+                name={skills.skillName}
+              >
+                <img
+                  alt={skills.skillName}
+                  width={skills.size}
+                  src={skills.imageUrl}
+                />
                 <p>{skills.skillName}</p>
               </li>
             );
@@ -30,15 +46,32 @@ export default function SoftwareSkill() {
         {skillsSection.softwareSkills.tools.map((skills, i) => {
           if (skills.negative) {
             return (
-              <li key={i} className="software-skill-inline" name={skills.skillName}>
-                <img alt={skills.skillName} width={skills.size} className="img-negative" src={skills.imageUrl} />
+              <li
+                key={i}
+                className="software-skill-inline"
+                name={skills.skillName}
+              >
+                <img
+                  alt={skills.skillName}
+                  width={skills.size}
+                  className="img-negative"
+                  src={skills.imageUrl}
+                />
                 <p>{skills.skillName}</p>
               </li>
             );
           } else {
             return (
-              <li key={i} className="software-skill-inline" name={skills.skillName}>
-                <img alt={skills.skillName} width={skills.size} src={skills.imageUrl} />
+              <li
+                key={i}
+                className="software-skill-inline"
+                name={skills.skillName}
+              >
+                <img
+                  alt={skills.skillName}
+                  width={skills.size}
+                  src={skills.imageUrl}
+                />
                 <p>{skills.skillName}</p>
               </li>
             );

@@ -45,9 +45,7 @@ export default function EducationCard({school}) {
               >
                 {school.subHeader}
               </h5>
-              <p
-                className="dark-mode education-text-duration"
-              >
+              <p className="dark-mode education-text-duration">
                 {school.duration}
               </p>
               <p className="education-text-desc">{school.desc}</p>
