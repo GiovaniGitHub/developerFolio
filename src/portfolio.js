@@ -14,7 +14,7 @@ const splashScreen = {
 };
 
 // Summary And Greeting Section
-''
+
 const illustration = {
   animated: true // Set to false to use static SVG
 };
