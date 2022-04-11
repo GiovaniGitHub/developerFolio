@@ -12,26 +12,24 @@ export default function AchievementCard({cardInfo, isDark}) {
   }
 
   return (
-    <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
-      <div className="certificate-image-div">
+    <div className="dark-mode certificate-card">
+      <div className="dark-mode certificate-image-div">
         <img src={cardInfo.image} alt="PWA" className="card-image"></img>
       </div>
-      <div className="certificate-detail-div">
-        <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
+      <div className="dark-mode certificate-detail-div">
+        <h5 className="dark-mode card-title" >
           {cardInfo.title}
         </h5>
-        <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
+        <p className="dark-mode card-subtitle">
           {cardInfo.description}
         </p>
       </div>
-      <div className="certificate-card-footer">
+      <div className="dark-mode certificate-card-footer">
         {cardInfo.footer.map((v, i) => {
           return (
             <span
               key={i}
-              className={
-                isDark ? "dark-mode certificate-tag" : "certificate-tag"
-              }
+              className="dark-mode certificate-tag"
               onClick={() => openUrlInNewTab(v.url, v.name)}
             >
               {v.name}

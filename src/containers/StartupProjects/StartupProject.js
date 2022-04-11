@@ -37,12 +37,8 @@ export default function StartupProject() {
               return (
                 <div
                   key={i}
-                  className={
-                    isDark
-                      ? "dark-mode project-card project-card-dark"
-                      : "project-card project-card-light"
-                  }
-                >
+                  className="dark-mode project-card project-card-dark"
+                  >
                   {project.image ? (
                     <div className="project-image">
                       <img
@@ -54,26 +50,21 @@ export default function StartupProject() {
                   ) : null}
                   <div className="project-detail">
                     <h5
-                      className={isDark ? "dark-mode card-title" : "card-title"}
-                    >
+                      className="dark-mode card-title">
                       {project.projectName}
                     </h5>
                     <p
-                      className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                      }
+                      className="dark-mode card-subtitle" 
                     >
                       {project.projectDesc}
                     </p>
                     {project.footerLink ? (
-                      <div className="project-card-footer">
+                      <div className="dark-mode project-card-footer">
                         {project.footerLink.map((link, i) => {
                           return (
                             <span
                               key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
+                              className="dark-mode project-tag" 
                               onClick={() => openUrlInNewTab(link.url)}
                             >
                               {link.name}
