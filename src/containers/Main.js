@@ -10,7 +10,6 @@ import Achievement from "./achievement/Achievement";
 import Footer from "../components/footer/Footer";
 import Profile from "./profile/Profile";
 import Education from "./education/Education";
-import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
@@ -18,20 +17,6 @@ import "./Main.scss";
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
-  const [setIsShowingSplashAnimation] =
-    useState(false);
-
-  useEffect(() => {
-    if (splashScreen.enabled) {
-      const splashTimer = setTimeout(
-        () => setIsShowingSplashAnimation(false),
-        splashScreen.duration
-      );
-      return () => {
-        clearTimeout(splashTimer);
-      };
-    }
-  }, []);
 
   const changeTheme = () => {
     setIsDark(true);
