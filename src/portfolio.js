@@ -187,7 +187,7 @@ const educationInfo = {
     {
       schoolName:
         "Federal Institute of Education Science and Technology of Rio Grande do Norte",
-      logo: require("./assets/images/ifrn.jpg"),
+      logo: require("./assets/images/ifrn.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2004 - July 2009",
       desc: " Took courses about Software Engineering, Software Analysis, Operating Systems."
@@ -197,7 +197,7 @@ const educationInfo = {
       logo: require("./assets/images/brasao_flat.png"),
       subHeader: "Graduate in Mathematics",
       duration: "January 1999 - March 2003",
-      desc: "PTook courses about Calculus and Analysis Mathematics, Topology, Algebra and Linear Algebral and Theory of Numbers."
+      desc: "Took courses about Calculus and Analysis Mathematics, Topology, Algebra and Linear Algebral and Theory of Numbers."
     }
   ]
 };
