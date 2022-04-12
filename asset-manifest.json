@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.c4d6a097.css",
-    "main.js": "/portifolio/static/js/main.fe4ac7fa.js",
+    "main.css": "/portifolio/static/css/main.54664f27.css",
+    "main.js": "/portifolio/static/js/main.850eb8f4.js",
     "static/css/141.27c49f1b.chunk.css": "/portifolio/static/css/141.27c49f1b.chunk.css",
     "static/js/141.f0e08cad.chunk.js": "/portifolio/static/js/141.f0e08cad.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/portifolio/static/css/769.70f3b610.chunk.css",
@@ -15,15 +15,15 @@
     "static/media/gtp.jpeg": "/portifolio/static/media/gtp.365e5831d1fc7be3599e.jpeg",
     "static/media/coursera-icon.png": "/portifolio/static/media/coursera-icon.bf7c7e43d5dcb215262b.png",
     "index.html": "/portifolio/index.html",
-    "main.c4d6a097.css.map": "/portifolio/static/css/main.c4d6a097.css.map",
-    "main.fe4ac7fa.js.map": "/portifolio/static/js/main.fe4ac7fa.js.map",
+    "main.54664f27.css.map": "/portifolio/static/css/main.54664f27.css.map",
+    "main.850eb8f4.js.map": "/portifolio/static/js/main.850eb8f4.js.map",
     "141.27c49f1b.chunk.css.map": "/portifolio/static/css/141.27c49f1b.chunk.css.map",
     "141.f0e08cad.chunk.js.map": "/portifolio/static/js/141.f0e08cad.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/portifolio/static/css/769.70f3b610.chunk.css.map",
     "769.a7149c14.chunk.js.map": "/portifolio/static/js/769.a7149c14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4d6a097.css",
-    "static/js/main.fe4ac7fa.js"
+    "static/css/main.54664f27.css",
+    "static/js/main.850eb8f4.js"
   ]
 }
