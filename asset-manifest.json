@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/developerFolio/static/css/main.fd75c0e7.css",
-    "main.js": "/developerFolio/static/js/main.5453181e.js",
-    "static/css/141.27c49f1b.chunk.css": "/developerFolio/static/css/141.27c49f1b.chunk.css",
-    "static/js/141.7f0eb1ea.chunk.js": "/developerFolio/static/js/141.7f0eb1ea.chunk.js",
-    "static/css/769.70f3b610.chunk.css": "/developerFolio/static/css/769.70f3b610.chunk.css",
-    "static/js/769.52145ef8.chunk.js": "/developerFolio/static/js/769.52145ef8.chunk.js",
-    "static/media/brasao_flat.png": "/developerFolio/static/media/brasao_flat.a76c441dc141b7c98373.png",
-    "static/media/Montserrat-Regular.ttf": "/developerFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/scikit_image.png": "/developerFolio/static/media/scikit_image.d98151ec9351cea4047a.png",
-    "static/media/Agustina.woff": "/developerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/ifrn.png": "/developerFolio/static/media/ifrn.286a6f5975c5218f1f46.png",
-    "static/media/Stone_pagamentos.png": "/developerFolio/static/media/Stone_pagamentos.c07f2e8c1ba95e90513b.png",
-    "static/media/gtp.jpeg": "/developerFolio/static/media/gtp.365e5831d1fc7be3599e.jpeg",
-    "static/media/coursera-icon.png": "/developerFolio/static/media/coursera-icon.bf7c7e43d5dcb215262b.png",
-    "index.html": "/developerFolio/index.html",
-    "main.fd75c0e7.css.map": "/developerFolio/static/css/main.fd75c0e7.css.map",
-    "main.5453181e.js.map": "/developerFolio/static/js/main.5453181e.js.map",
-    "141.27c49f1b.chunk.css.map": "/developerFolio/static/css/141.27c49f1b.chunk.css.map",
-    "141.7f0eb1ea.chunk.js.map": "/developerFolio/static/js/141.7f0eb1ea.chunk.js.map",
-    "769.70f3b610.chunk.css.map": "/developerFolio/static/css/769.70f3b610.chunk.css.map",
-    "769.52145ef8.chunk.js.map": "/developerFolio/static/js/769.52145ef8.chunk.js.map"
+    "main.css": "/portifolio/static/css/main.c4d6a097.css",
+    "main.js": "/portifolio/static/js/main.fe4ac7fa.js",
+    "static/css/141.27c49f1b.chunk.css": "/portifolio/static/css/141.27c49f1b.chunk.css",
+    "static/js/141.f0e08cad.chunk.js": "/portifolio/static/js/141.f0e08cad.chunk.js",
+    "static/css/769.70f3b610.chunk.css": "/portifolio/static/css/769.70f3b610.chunk.css",
+    "static/js/769.a7149c14.chunk.js": "/portifolio/static/js/769.a7149c14.chunk.js",
+    "static/media/brasao_flat.png": "/portifolio/static/media/brasao_flat.a76c441dc141b7c98373.png",
+    "static/media/Montserrat-Regular.ttf": "/portifolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/scikit_image.png": "/portifolio/static/media/scikit_image.d98151ec9351cea4047a.png",
+    "static/media/Agustina.woff": "/portifolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/ifrn.png": "/portifolio/static/media/ifrn.286a6f5975c5218f1f46.png",
+    "static/media/Stone_pagamentos.png": "/portifolio/static/media/Stone_pagamentos.c07f2e8c1ba95e90513b.png",
+    "static/media/gtp.jpeg": "/portifolio/static/media/gtp.365e5831d1fc7be3599e.jpeg",
+    "static/media/coursera-icon.png": "/portifolio/static/media/coursera-icon.bf7c7e43d5dcb215262b.png",
+    "index.html": "/portifolio/index.html",
+    "main.c4d6a097.css.map": "/portifolio/static/css/main.c4d6a097.css.map",
+    "main.fe4ac7fa.js.map": "/portifolio/static/js/main.fe4ac7fa.js.map",
+    "141.27c49f1b.chunk.css.map": "/portifolio/static/css/141.27c49f1b.chunk.css.map",
+    "141.f0e08cad.chunk.js.map": "/portifolio/static/js/141.f0e08cad.chunk.js.map",
+    "769.70f3b610.chunk.css.map": "/portifolio/static/css/769.70f3b610.chunk.css.map",
+    "769.a7149c14.chunk.js.map": "/portifolio/static/js/769.a7149c14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd75c0e7.css",
-    "static/js/main.5453181e.js"
+    "static/css/main.c4d6a097.css",
+    "static/js/main.fe4ac7fa.js"
   ]
 }
