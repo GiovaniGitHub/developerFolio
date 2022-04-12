@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "giovani.angelo",
-  title: "Hi all, I'm Giovani Ângelo",
+  title: "Hi everybody, I'm Giovani Ângelo",
   subTitle: emoji(
     "I have over 14 year's experience as a software engineer. During this time, I developed back-end systems, pipelines for data processing, and also worked in education as a teacher and researcher."
   ),
@@ -35,6 +35,7 @@ const socialMediaLinks = {
   github: "https://github.com/GiovaniGitHub",
   linkedin: "https://www.linkedin.com/in/giovaninobrega/",
   gmail: "giovani.angelo@gmail.com",
+  hackerrank: "https://www.hackerrank.com/giovani_angelo",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -425,7 +426,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
