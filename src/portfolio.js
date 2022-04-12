@@ -105,9 +105,9 @@ https://fontawesome.com/icons?d=gallery */
         size: "80px"
       },
       {
-        skillName: "Scikit",
+        skillName: "Scikit Learn",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+          require("./assets/images/sklearn_logo.png"),
         negative: false,
         size: "100px"
       },
