@@ -1,7 +1,6 @@
-import React, {createRef, useContext} from "react";
+import React, {createRef} from "react";
 import {Fade, Slide} from "react-reveal";
 import "./EducationCard.scss";
-import StyleContext from "../../contexts/StyleContext";
 
 export default function EducationCard({school}) {
   const imgRef = createRef();
@@ -15,7 +14,6 @@ export default function EducationCard({school}) {
         ))
       : null;
   };
-  const {isDark} = useContext(StyleContext);
 
   if (!school.logo)
     console.error(`Image of ${school.name} is missing in education section`);
@@ -33,17 +31,11 @@ export default function EducationCard({school}) {
             />
           </div>
           <div className="education-card-right">
-            <h5 className="education-text-school">{school.schoolName}</h5>
+            <h5 className="education-text-school">{school.subHeader}</h5>
 
             <div className="education-text-details">
-              <h5
-                className={
-                  isDark
-                    ? "dark-mode education-text-subHeader"
-                    : "education-text-subHeader"
-                }
-              >
-                {school.subHeader}
+              <h5 className="dark-mode education-text-subHeader" >
+                {school.schoolName}
               </h5>
               <p className="dark-mode education-text-duration">
                 {school.duration}

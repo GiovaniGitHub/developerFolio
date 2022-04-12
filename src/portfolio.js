@@ -189,7 +189,7 @@ const educationInfo = {
       schoolName:
         "Federal Institute of Education Science and Technology of Rio Grande do Norte",
       logo: require("./assets/images/ifrn.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Degree of System Analysis and Development",
       duration: "July 2004 - July 2009",
       desc: " Took courses about Software Engineering, Software Analysis, Operating Systems."
     },

@@ -1,8 +1,7 @@
-import React, {useContext} from "react";
+import React from "react";
 import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -13,7 +12,6 @@ export default function StartupProject() {
     win.focus();
   }
 
-  const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
   }
@@ -23,11 +21,7 @@ export default function StartupProject() {
         <div>
           <h1 className="skills-heading">{bigProjects.title}</h1>
           <p
-            className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
-            }
+            className="dark-mode project-subtitle"
           >
             {bigProjects.subtitle}
           </p>
