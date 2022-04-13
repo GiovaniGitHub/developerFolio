@@ -100,9 +100,9 @@ https://fontawesome.com/icons?d=gallery */
     tools: [
       {
         skillName: "Node",
-        imageUrl: "https://img.icons8.com/color/240/000000/nodejs.png",
+        imageUrl: require("./assets/images/nodejs.png"),
         negative: false,
-        size: "80px"
+        size: "60px"
       },
       {
         skillName: "Scikit Learn",
@@ -146,13 +146,13 @@ https://fontawesome.com/icons?d=gallery */
         skillName: "Numpy",
         imageUrl: "https://numpy.org/images/logo.svg",
         negative: false,
-        size: "60px"
+        size: "70px"
       },
       {
         skillName: "Pandas",
         imageUrl: "https://pandas.pydata.org/static/img/favicon_white.ico",
         negative: false,
-        size: "60px"
+        size: "70px"
       },
       {
         skillName: "Spark",
