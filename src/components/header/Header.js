@@ -1,11 +1,12 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
+
 import {
   workExperiences,
   skillsSection,
   educationInfo,
-
+  bigProjects,
   achievementSection
 } from "../../portfolio";
 
@@ -14,7 +15,7 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewEducationInfo = educationInfo.display;
   const viewAchievement = achievementSection.display;
-
+  const viewBigProjects = bigProjects.display;
 
   return (
     <Headroom>
@@ -50,31 +51,16 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
+          {viewBigProjects && (
+            <li>
+              <a href="#projects">Helped Projects</a>
+            </li>
+          )
+          }
 
-          {/* {viewOpenSource && (
-            <li>
-              <a href="#opensource">Open Source</a>
-            </li>
-          )} */}
-          {/* {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )} */}
-          {/* {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
-            </li>
-          )} */}
           <li>
             <a href="#contact">Contact Me</a>
           </li>
-          {/* <li> */}
-          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          {/* <a>
-              <ToggleSwitch />
-            </a> */}
-          {/* </li> */}
         </ul>
       </header>
     </Headroom>
