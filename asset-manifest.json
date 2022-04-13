@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portifolio/static/css/main.a923cb0c.css",
-    "main.js": "/portifolio/static/js/main.3bc3c86a.js",
+    "main.js": "/portifolio/static/js/main.1cb073de.js",
     "static/css/769.70f3b610.chunk.css": "/portifolio/static/css/769.70f3b610.chunk.css",
     "static/js/769.a7149c14.chunk.js": "/portifolio/static/js/769.a7149c14.chunk.js",
     "static/media/brasao_flat.png": "/portifolio/static/media/brasao_flat.a76c441dc141b7c98373.png",
     "static/media/Montserrat-Regular.ttf": "/portifolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/scikit_image.png": "/portifolio/static/media/scikit_image.d98151ec9351cea4047a.png",
+    "static/media/nodejs.png": "/portifolio/static/media/nodejs.aa8bc616bb8252fa29f3.png",
     "static/media/Agustina.woff": "/portifolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/ifrn.png": "/portifolio/static/media/ifrn.286a6f5975c5218f1f46.png",
     "static/media/Stone_pagamentos.png": "/portifolio/static/media/Stone_pagamentos.c07f2e8c1ba95e90513b.png",
@@ -15,12 +16,12 @@
     "static/media/coursera-icon.png": "/portifolio/static/media/coursera-icon.bf7c7e43d5dcb215262b.png",
     "index.html": "/portifolio/index.html",
     "main.a923cb0c.css.map": "/portifolio/static/css/main.a923cb0c.css.map",
-    "main.3bc3c86a.js.map": "/portifolio/static/js/main.3bc3c86a.js.map",
+    "main.1cb073de.js.map": "/portifolio/static/js/main.1cb073de.js.map",
     "769.70f3b610.chunk.css.map": "/portifolio/static/css/769.70f3b610.chunk.css.map",
     "769.a7149c14.chunk.js.map": "/portifolio/static/js/769.a7149c14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a923cb0c.css",
-    "static/js/main.3bc3c86a.js"
+    "static/js/main.1cb073de.js"
   ]
 }
