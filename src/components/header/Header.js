@@ -1,25 +1,20 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
-// import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
-// import StyleContext from "../../contexts/StyleContext";
 import {
   workExperiences,
   skillsSection,
-  // openSource,
-  // blogSection,
-  // talkSection,
+  educationInfo,
+
   achievementSection
 } from "../../portfolio";
 
 function Header() {
-  // const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  // const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
+  const viewEducationInfo = educationInfo.display;
   const viewAchievement = achievementSection.display;
-  // const viewBlog = blogSection.display;
-  // const viewTalks = talkSection.display;
+
 
   return (
     <Headroom>
@@ -28,7 +23,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: "white" }}
         >
           <span className="navicon navicon-dark"></span>
         </label>
@@ -38,21 +33,29 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
+          {
+            viewEducationInfo && (
+              <li>
+                <a href="#education">Education</a>
+              </li>
+            )
+          }
+          {viewAchievement && (
+            <li>
+              <a href="#achievements">Certifications</a>
+            </li>
+          )}
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
           )}
+
           {/* {viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>
             </li>
           )} */}
-          {viewAchievement && (
-            <li>
-              <a href="#achievements">Achievements</a>
-            </li>
-          )}
           {/* {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>

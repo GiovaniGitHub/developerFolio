@@ -34,7 +34,7 @@ export default function EducationCard({school}) {
             <h5 className="education-text-school">{school.subHeader}</h5>
 
             <div className="education-text-details">
-              <h5 className="dark-mode education-text-subHeader" >
+              <h5 className="dark-mode education-text-subHeader">
                 {school.schoolName}
               </h5>
               <p className="dark-mode education-text-duration">
