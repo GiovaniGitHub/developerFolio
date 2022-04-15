@@ -24,7 +24,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{ color: "white" }}
+          style={{color: "white"}}
         >
           <span className="navicon navicon-dark"></span>
         </label>
@@ -34,13 +34,11 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
-          {
-            viewEducationInfo && (
-              <li>
-                <a href="#education">Education</a>
-              </li>
-            )
-          }
+          {viewEducationInfo && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
           {viewAchievement && (
             <li>
               <a href="#achievements">Certifications</a>
@@ -55,8 +53,7 @@ function Header() {
             <li>
               <a href="#projects">Helped Projects</a>
             </li>
-          )
-          }
+          )}
 
           <li>
             <a href="#contact">Contact Me</a>
