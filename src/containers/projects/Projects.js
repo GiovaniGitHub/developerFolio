@@ -54,9 +54,7 @@ export default function Projects() {
                   `Github Object for repository number : ${i} is undefined`
                 );
               }
-              return (
-                <GithubRepoCard repo={v} key={v.node.id}/>
-              );
+              return <GithubRepoCard repo={v} key={v.node.id} />;
             })}
           </div>
           <Button
