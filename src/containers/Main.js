@@ -32,11 +32,9 @@ const Main = () => {
           <Education />
           <Achievement />
           <WorkExperience />
-          {/* <Projects /> */}
           <StartupProject />
           <Profile />
           <Footer />
-          {/* <ScrollToTopButton /> */}
         </>
       </StyleProvider>
     </div>
