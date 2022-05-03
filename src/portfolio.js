@@ -63,7 +63,7 @@ https://fontawesome.com/icons?d=gallery */
         imageUrl:
           "https://img.icons8.com/color/512/000000/java-coffee-cup-logo.png",
         negative: false,
-        size: "60px"
+        size: "70px"
       },
       {
         skillName: "Python",
@@ -159,6 +159,13 @@ https://fontawesome.com/icons?d=gallery */
           "https://uploads-ssl.webflow.com/5e724862760345325327026c/5fa7238e9ad1b43af56de907_apache-spark-white-logo.png",
         negative: false,
         size: "100px"
+      },
+      {
+        skillName: "Databricks",
+        imageUrl:
+          "https://databricks.com/wp-content/uploads/2021/10/db-nav-logo.svg",
+        negative: false,
+        size: "130px"
       }
     ]
   },
