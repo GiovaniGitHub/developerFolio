@@ -385,6 +385,10 @@ const achievementSection = {
         {
           name: "ReactJS, Hooks, Recoil, TDD, Clean Architecture, SOLID",
           url: "https://www.udemy.com/certificate/UC-2196270e-368a-4c77-babf-9c6777bec54a"
+        },
+        {
+          name: "The Ultimate Hands-On Hadoop: Tame your Big Data!",
+          url: "https://www.udemy.com/certificate/UC-a279d0aa-ef82-46ac-927c-356a37cdd07f"
         }
       ]
     }
